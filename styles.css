@@ -33,3 +33,41 @@ a {
   font-size: 18px;
   text-decoration: none;
 }
+
+.first-block {
+  padding: 80px 8px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+
+.first-left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 420px;
+  gap: 12px;
+}
+
+.first-left-one {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.first-block img {
+  width: 500px;
+  height: 220px;
+}
+
+.first-left button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0;
+  padding: 8px 24px;
+  align-self: flex-start;
+}
