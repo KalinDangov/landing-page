@@ -10,7 +10,7 @@ body {
   background-color: #1f2937;
   color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   padding: 8px;
 }
@@ -20,12 +20,16 @@ body {
   font-size: 24px;
   font-weight: bold;
   display: flex;
+  width: 420px;
 }
 
 ul {
   list-style-type: none;
   display: flex;
-  gap: 12px;
+  gap: 18px;
+  width: 480px;
+  justify-content: flex-end;
+  padding: 0;
 }
 
 a {
@@ -39,9 +43,8 @@ a {
   background-color: #1f2937;
   color: #f9faf8;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  gap: 120px;
 }
 
 .first-left {
@@ -58,7 +61,7 @@ a {
 }
 
 .first-block img {
-  width: 500px;
+  width: 480px;
   height: 220px;
 }
 
@@ -70,4 +73,41 @@ a {
   border: 0;
   padding: 8px 24px;
   align-self: flex-start;
+}
+
+.second-up {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  padding: 24px;
+}
+
+.second-down {
+  color: gray;
+  display: flex;
+  gap: 48px;
+  padding: 16px;
+  justify-content: center;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+}
+
+.block img {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+}
+
+.block div {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 48px;
 }
